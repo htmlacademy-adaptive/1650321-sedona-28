@@ -1,7 +1,7 @@
 # Личный проект «Седона» 
 
 * Студент: [Николай Петров](https://up.htmlacademy.ru/adaptive/28/user/1650321).
-* Наставник: `Неизвестно`.
+* Наставник: [Ирина Малиновская](https://htmlacademy.ru/profile/irina-malinovskaya).
 
 ---
 
