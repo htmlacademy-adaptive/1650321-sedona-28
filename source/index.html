@@ -7,7 +7,7 @@
   <body class="page__body">
     <header class="main-header">
       <a class="main-header__logo" href="#">
-        <img src="" alt="City of Sedona">
+        <img src="./img/logo.svg" alt="City of Sedona">
       </a>
       <nav class="main-nav">
         <button class="main-nav__toggle" type="button">
@@ -15,7 +15,7 @@
         </button>
         <div class="main-nav__wrapper">
           <ul class="main-nav__list site-list">
-            <li class="site-list__item site-list__item--active">
+            <li class="site-list__item site-list__item">
               <a class="site-list__link" href="#">Главная</a>
             </li>
             <li class="site-list__item">
@@ -34,86 +34,65 @@
     <main class="main-container">
       <div class="promo">
         <p class="promo__greeting greeting">
-          <span class="greeting__title">Welcome</span>
-          <span class="greeting__cause">- to the gorgeous -</span>
-          <span class="greeting__place">Sedona</span>
-          <span class="greeting__description">"Because the Grand Canyon"</span>
+          <img class="greeting__image" src="./img/text-index.svg" alt="Welcome Sedona">
         </p>
       </div>
-      <div class="advantages">
-        <h1 class="advantages__title">
-          Седона - небольшой городок в Аризоне, заслуживающий большего!
-        </h1>
-        <h2 class="advantages__reasons">
-          Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!
-        </h2>
-        <section class="advantages__advantage advantage">
-          <div class="advantage__header">
-            <p class="advantage__reason reason">
-              <span class="reason__title">Настоящий городок</span>
-              <span class="reason__number">- №1 -</span>
-              <span class="reason__description">Седона не аттракцион для туристов, там течет своя жизнь</span>
-            </p>
-          </div>
-          <div class="advantage-image">
-            <img src="" alt="Real city">
-          </div>
-          <div class="advantage__advantage-list-wrapper">
-            <dl class="advantage-list">
-              <dt class="advantage-list__item-title"><img src="" alt="">Жилье</dt>
-                <dd class="advantage-list__item-description">
+      <h1 class="main-container__title">
+        Седона - небольшой городок в Аризоне, заслуживающий большего!
+      </h1>
+      <h2 class="main-container__description">
+        Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!
+      </h2>
+      <div class="advantages-list-wrapper advantages">
+        <ol class="advantages__list">
+          <li class="advantages__advantage advantage">
+            <p class="advantage__title">Настоящий городок</p>
+            <p class="advantage__description">Седона не аттракцион для туристов, там течет своя жизнь</p>
+            <img class="advantage-image" src="./img/city.png" alt="Real city">
+            <div class="advantage__advantage-options-list-wrapper">
+            <dl class="advantage-options-list">
+              <dt class="advantage-options-list__item-title">
+                <img class="advantage-options-list__item-icon" src="./img/house.svg" alt="House">
+                  Жилье
+              </dt>
+                <dd class="advantage-options-list__item-description">
                   Рекомендуем пожить в настоящем мотеле, все как в кино!
                 </dd>
-              <dt class="advantage-list__item-title"><img src="" alt="">Еда</dt>
-                <dd class="advantage-list__item-description">
+              <dt class="advantage-options-list__item-title">
+                <img class="advantage-options-list__item-icon" src="./img/burger.svg" alt="food">
+                  Еда
+              </dt>
+                <dd class="advantage-options-list__item-description">
                   Всегда заказывайте ФИРМЕННЫЙ БУРГЕР, Вы НЕ разочаруетесь!
                 </dd>
-              <dt class="advantage-list__item-title"><img src="" alt="">Сувениры</dt>
-                <dd class="advantage-list__item-description">
+              <dt class="advantage-options-list__item-title">
+                <img class="advantage-options-list__item-icon" src="./img/gift.svg" alt="gifts">
+                  Сувениры
+              </dt>
+                <dd class="advantage-options-list__item-description">
                   Не только китайского, но и местного производства!
                 </dd>
             </dl>
           </div>
-        </section>
-        <section class="advantages__advantage advantage">
-          <div class="advantage__header">
-            <p class="advantage__reason reason">
-              <span class="reason__title">Там есть Мост Дьявола</span>
-              <span class="reason__number">- №2 -</span>
-              <span class="reason__description">да, по нему можно пройти! Если вы осмелитесь конечно</span>
-            </p>
-          </div>
-          <div class="advantage-image">
-            <img src="" alt="devil's bridge">
-          </div>
-        </section>
-        <section class="advantages__advantage advantage">
-          <div class="advantage__header">
-            <p class="advantage__reason reason">
-              <span class="reason__title">Небольшая площадь</span>
-              <span class="reason__number">- №3 -</span>
-              <span class="reason__description">Все интересные места находятся очень близко</span>
-            </p>
-          </div>
-        </section>
-        <section class="advantages__advantage advantage">
-          <div class="advantage__header">
-            <p class="advantage__reason reason">
-              <span class="reason__title">Красивая дорога</span>
-              <span class="reason__number">- №4 -</span>
-              <span class="reason__description">Ехать в Седону из Лас-Вегаса совсем не скучно!</span>
-            </p>
-          </div>
-        </section>
-        <section class="advantages__advantage advantage">
-          <div class="advantage__header">
-            <p class="advantage__reason reason">
-              <span class="reason__title">Мало туристов</span>
-              <span class="reason__number">- №5 -</span>
-              <span class="reason__description">Большинство едет в Гранд Каньон и толпится там</span>
-            </p>
-          </div>
-        </section>
+          </li>
+          <li class="advantages__advantage advantage">
+            <p class="advantage__title">Там есть Мост Дьявола</p>
+            <p class="advantage__description">да, по нему можно пройти! Если вы осмелитесь конечно</p>
+            <img class="advantage-image" src="./img/bridge.png" alt="devil's bridge">
+          </li>
+          <li class="advantages__advantage advantage">
+            <p class="advantage__title">Небольшая площадь</p>
+            <p class="advantage__description">Все интересные места находятся очень близко</p>
+          </li>
+          <li class="advantages__advantage advantage">
+            <p class="advantage__title">Красивая дорога</p>
+            <p class="advantage__description">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+          </li>
+          <li class="advantages__advantage advantage">
+            <p class="advantage__title">Мало туристов</p>
+            <p class="advantage__description">Большинство едет в Гранд Каньон и толпится там</p>
+          </li>
+        </ol>
       </div>
       <div class="offer">
         <h2 class="offer__title">Заинтересовались ?</h2>
@@ -130,22 +109,32 @@
       </div>
     </main>
     <footer class="main-footer">
-      <h2 class="sedona-tag">#visitsedona</h2>
-      <div class="social-list">
-        <ul class="social-list__wrapper">
-          <li class="social-list__item"><a href="#"><img src="" alt="vk"></a></li>
-          <li class="social-list__item"><a href="#"><img src="" alt="telegram"></a></li>
-          <li class="social-list__item"><a href="#"><img src="" alt="youtube"></a></li>
+      <h2 class="sedona-hashtag">#visitsedona</h2>
+      <div class="social-list-wrapper">
+        <ul class="social-list">
+          <li class="social-list__item social-list-item">
+            <a href="#">
+              <img class="social-list-item__logo" src="./img/vk.svg" alt="vk">
+            </a>
+          </li>
+          <li class="social-list__item social-list-item">
+            <a href="#">
+              <img class="social-list-item__logo" src="./img/telegram.svg" alt="telegram">
+            </a>
+          </li>
+          <li class="social-list__item social-list-item">
+            <a href="#">
+              <img class="social-list-item__logo" src="./img/youtube.svg" alt="youtube">
+            </a>
+          </li>
         </ul>
       </div>
-      <p class="developer">
+      <div class="developer">
         Разработано
-        <span class="developer__logo-wrapper">
-          <a href="#">
-            <img class="developer__logo" src="" alt="HTML Academy">
-          </a>
-        </span>
-      </p>
+        <a href="#">
+          <img class="developer__logo" src="./img/htmlacademy.svg" alt="HTML Academy">
+        </a>
+      </div>
     </footer>
   </body>
 </html>
