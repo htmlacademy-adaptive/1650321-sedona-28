@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <title>HTML Academy: Седона</title>
+  </head>
+  <body class="page__body">
+    <header class="main-header">
+      <img src="./img/logo.svg" alt="City of Sedona">
+      <nav class="main-nav">
+        <button class="main-nav__toggle" type="button">
+          Открыть меню
+        </button>
+        <div class="main-nav__wrapper">
+          <ul class="main-nav__list site-list">
+            <li class="site-list__item site-list__item">
+              <a class="site-list__link" href="./index.html">Главная</a>
+            </li>
+            <li class="site-list__item">
+              <a class="site-list__link" href="./catalog.html">Фото и видео</a>
+            </li>
+            <li class="site-list__item">
+              <a class="site-list__link" href="#">Форма отзыва</a>
+            </li>
+            <li class="site-list__item">
+              <a class="site-list__link" href="#">HTML ACADEMY</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main class="main-container">
+      <div class="promo">
+        <p class="promo__greeting greeting">
+          <img class="greeting__image" src="./img/text-index.svg" alt="Welcome Sedona">
+        </p>
+      </div>
+      <h1 class="main-container__title">
+        Оставьте свой отзыв
+      </h1>
+      <h2 class="main-container__description">
+        Помогите нашим отелям стать лучше! оставьте отзыв о них, а также о посещенных вами достопримечательностях
+      </h2>
+      <div class="form-wrapper">
+        <form class="review-form" action="">
+          <div class="review-form__paragraph fullname-form">
+            <p class="fullname-form__title">Представьтесь</p>
+            <label class="fullname-form__label">Имя*:
+              <input class="fullname-form__input" placeholder="Петр" type="text">
+            </label>
+            <label class="fullname-form__label">Фамилия*:
+              <input class="fullname-form__input" placeholder="Пустота" type="text">
+            </label>
+            <label class="fullname-form__label">Отчество:
+              <input class="fullname-form__input" placeholder="Викторович" type="text">
+            </label>
+          </div>
+          <div class="review-form__paragraph contact-form">
+            <p class="contact-form__title">Контактная информация:</p>
+            <label class="contact-form__label"> Контактный телефон*:
+              <input class="contact-form__input mobile-input" placeholder="Введите телефон" type="number">
+            </label>
+            <label class="contact-form__label"> Электронная почта*:
+              <input class="contact-form__input email-input" placeholder="Введите e-mail" type="email">
+            </label>
+          </div>
+          <div class="review-form__paragraph impression-form">
+            <p class="impression-form__title">Ваше Общее впечатление:</p>
+            <label class="impression-form__label">Скорее положительное
+              <input class="impression-form__input" name="impression" type="radio" checked>
+            </label>
+            <label class="impression-form__label">Скорее отрицательное
+              <input class="impression-form__input" name="impression" type="radio">
+            </label>
+            <label class="impression-form__label">Затрудняюсь ответить
+              <input class="impression-form__input" name="impression" type="radio">
+            </label>
+          </div>
+          <div class="review-form__paragraph visits-from">
+            <p class="visits-from__title">посещенные достопримечательности:</p>
+            <label class="visits-from__label">Мост Дьявола
+              <input class="visits-from__input" type="checkbox" checked>
+            </label>
+            <label class="visits-from__label">Гора-Колокол
+              <input class="visits-from__input" type="checkbox" checked>
+            </label>
+            <label class="visits-from__label">Слайд-парк
+              <input class="visits-from__input" type="checkbox" checked>
+            </label>
+            <label class="visits-from__label">Красные скалы
+              <input class="visits-from__input" type="checkbox">
+            </label>
+          </div>
+          <div class="review-form__paragraph emotions-form">
+            <p class="emotions-form__title">Опишите свои эмоции:</p>
+            <textarea class="emotions-form__textarea" placeholder="Опишите подробно все свои восторги" cols="30" rows="10"></textarea>
+          </div>
+          <button class="send-review" type="button">ОТПРАВИТЬ ОТЗЫВ</button>
+          <p class="review-form__postscript">* — обязательные поля</p>
+        </form>
+      </div>
+    </main>
+    <footer class="main-footer">
+      <h2 class="sedona-hashtag">#visitsedona</h2>
+      <div class="social-list-wrapper">
+        <ul class="social-list">
+          <li class="social-list__item">
+            <a class="social-list__link" href="#"></a>
+          </li>
+          <li class="social-list__item">
+            <a class="social-list__link"  href="#"></a>
+          </li>
+          <li class="social-list__item">
+            <a class="social-list__link" href="#"></a>
+          </li>
+        </ul>
+      </div>
+      <div class="developer">
+        Разработано
+        <a href="#">
+          <img class="developer__logo" src="./img/htmlacademy.svg" alt="HTML Academy">
+        </a>
+      </div>
+    </footer>
+    <div class="modals">
+      <div class="modals__failure-modal modal">
+        <h3 class="modal__title">
+          ЧТО-ТО ПОШЛО НЕ ТАК!
+        </h3>
+        <p class="modal__description">
+          Проверьте поля, выделенные красным, скорее всего вы забыли их заполнить
+        </p>
+        <button class="modal__button">OK</button>
+      </div>
+      <div class="modals__success-modal modal">
+        <h3 class="modal__title">
+          Ваш отзыв отправлен!
+        </h3>
+        <p class="modal__description">
+          Спасибо за ваше участие, ваш отзыв уже поступил к нам.В ближайшее время мы опубликуем его на сайте.
+        </p>
+        <button class="modal__button">Закрыть окно</button>
+      </div>
+    </div>
+  </body>
+</html>
