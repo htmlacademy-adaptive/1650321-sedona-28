@@ -1,8 +1,26 @@
 .advantage-sublist {
   list-style-type: none;
+  padding-top: 31px;
+  padding-bottom: 13px;
   padding-left: 0;
 }
 
 .advantage-sublist__item {
   padding-left: 0;
+}
+
+.advantage-sublist__item-title {
+  font-size: 18px;
+  line-height: 26px;
+  text-align: left;
+  font-weight: 700;
+  padding-left: 65px;
+}
+
+.advantage-sublist__item-description {
+  font-size: 14px;
+  line-height: 21px;
+  text-align: left;
+  font-weight: 400;
+  padding: 16px 18px 33px 65px;
 }
