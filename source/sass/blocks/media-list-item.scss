@@ -1,0 +1,49 @@
+.media-list__item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 24px 20px 25px 20px;
+}
+
+
+.media-list-item__title {
+  font-size: 18px;
+  line-height: 26px;
+  text-align: left;
+  font-weight: 700;
+  padding-top: 15px;
+}
+
+.media-list-item__author {
+  font-size: 14px;
+  line-height: 21px;
+  text-align: left;
+  font-weight: 400;
+  text-transform: none;
+}
+
+.media-list-item__like-button {
+  display: flex;
+  border: none;
+  outline: none;
+  background: transparent;
+  cursor: pointer;
+  padding: 0;
+  width: 23px;
+  height: 21px;
+}
+
+.media-list-item__like-counter {
+  display: flex;
+  padding-left: 14px;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.media-list-item__like-wrapper {
+  display: flex;
+  flex-direction: row;
+  padding-top: 11px;
+}
