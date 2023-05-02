@@ -17,4 +17,8 @@
   line-height: 26px;
   text-align: center;
   font-weight: 700;
+
+  &::placeholder {
+    opacity: 0.3;
+  }
 }

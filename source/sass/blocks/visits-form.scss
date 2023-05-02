@@ -1,0 +1,22 @@
+.visits-form__title {
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.visits-form__label {
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.visits-form__input {
+  &::before {
+    width: 46px;
+    height: 46px;
+    border: none;
+    background-color: #333333;
+  }
+}
