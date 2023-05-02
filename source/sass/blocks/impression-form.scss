@@ -1,0 +1,29 @@
+.impression-form__title {
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.impression-form__label {
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.impression-form__input {
+  width: 46px;
+  height: 46px;
+  border: none;
+  outline: none;
+  background-color: #f2f2f2;
+
+  &:checked{
+    &::before {
+      width: 16px;
+      height: 16px;
+      background-color: #333333;
+    }
+  }
+}
