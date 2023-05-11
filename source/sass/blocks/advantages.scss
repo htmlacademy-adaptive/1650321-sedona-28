@@ -1,0 +1,12 @@
+.advantages__list {
+  list-style-type: none;
+  padding-left: 0;
+
+  .advantages__item:nth-child(n+4) {
+    border-top: 1px solid #d6d6d6;
+  }
+}
+
+.advantage {
+  padding-left: 0;
+}

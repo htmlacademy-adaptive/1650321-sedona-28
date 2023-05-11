@@ -1,0 +1,32 @@
+.visits-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .visits-form__label:last-child {
+    padding-bottom: 24px;
+  }
+
+  .visits-form__label:not(:first-child) {
+    padding-top: 16px;
+  }
+}
+
+.visits-form__title {
+  padding-top: 24px;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.visits-form__label {
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.visits-form__input {
+  float: left;
+}

@@ -1,0 +1,33 @@
+.review-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.review-form__send-review {
+  width: 280px;
+  height: 58px;
+  background-color: #81b3d2;
+  color: #ffffff;
+  text-transform: uppercase;
+  border: none;
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.review-form__postscript {
+  font-size: 12px;
+  line-height: 21px;
+  font-weight: 400;
+  align-self: flex-end;
+  color: #333333;
+  padding-right: 20px;
+  opacity: 0.6;
+}
+
+.review-form__paragraph {
+  border-top: 1px solid #e5e5e5;
+}

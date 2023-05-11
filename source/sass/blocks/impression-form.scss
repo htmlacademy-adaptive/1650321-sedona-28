@@ -1,0 +1,38 @@
+.impression-form {
+  display: flex;
+  flex-direction: column;
+
+  .impression-form__label:last-child {
+    padding-bottom: 24px;
+  }
+
+  .impression-form__label:not(:first-child) {
+    padding-top: 16px;
+  }
+}
+
+.impression-form__title {
+  padding-top: 24px;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.impression-form__label {
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  font-weight: 700;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.impression-form__input {
+  width: 46px;
+  height: 46px;
+  border: none;
+  outline: none;
+  background-color: #f2f2f2;
+  float: left;
+}
